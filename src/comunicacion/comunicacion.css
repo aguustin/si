@@ -1,0 +1,61 @@
+.comunicacion{
+    width: 1200px;
+}
+
+.comunicacion nav{
+    background-color: rgb(199, 130, 2);
+    width: 100%;
+}
+
+.marcaCabecera img{
+    width: 360px;
+}
+
+.marcasRubros{
+    padding: 1rem 0rem;
+}
+
+.marcasRedesSociales{
+    padding: 1.5rem 0rem;
+}
+
+.marcasRubros img{
+    margin: 10px;
+    width: 90px;
+}
+
+.comunicacion button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.comunicacion button:hover > img{
+    filter: drop-shadow(5px 5px 10px #000);
+    transition: all .5s;
+}
+
+.marcasRedesSociales img{
+    width: 70px;
+    margin: 10px;
+}
+
+.comunicacion footer img{
+    width: 100%;
+    height: 150px;
+}
+
+
+.pediTuPresupuesto{
+    position: relative;
+    width: 100%;
+}
+
+.pediTuPresupuesto h2{
+    position: absolute;
+    font-size: 35px;
+    color:white;
+    bottom: 20px;
+    left: 35%;
+    right: 35%;
+}

@@ -1,38 +1,48 @@
+
+*{
+  padding: 0;
+  margin: 0 auto;
+}
+
 .App {
+  width: 100%;
   text-align: center;
+  background-image: url('../src/imgs/fondo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.seccion{
+  margin-top: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.seccion > div img{
+  width: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.seccionImg{
+  width: 40%;
 }
 
-.App-link {
-  color: #61dafb;
+.seccionInfo{
+  width: 60%;
+  text-align: left;
+  font-size: 20px;
+  padding: 0rem 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CpediTuPresupuesto{
+  position: relative;
+  width: 100%;
 }
+
+.CpediTuPresupuesto h2{
+  position: absolute;
+  font-size: 35px;
+  color:white;
+  bottom: 60px;
+  left: 33%;
+  right: 33%;
+}
+

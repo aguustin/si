@@ -1,0 +1,58 @@
+.home{
+    width: 1200px;
+}
+
+.home img{
+    width: 100%;
+}
+
+.exp-juv{
+    font-size: 37px;
+    font-weight: 600;
+    color: rgb(199, 130, 2);
+}
+
+.exp-juv > div {
+    margin-top: 50px;
+    padding: 0rem 6.5rem;
+}
+
+.exp-card{
+    width: 300px;
+    height: 44vh;
+    border: 1px solid rgb(199, 130, 2);
+}
+
+.exp-card > div{
+    background-color: rgb(199, 130, 2);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.secciones button{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(199, 130, 2);
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 20px;
+    padding: .8rem .8rem;
+    margin-top: 2rem;
+}
+
+.secciones button a{
+    text-decoration: none;
+    color: white;
+}
+
+.secciones button:hover{
+    transform: translateX(7%);
+    box-shadow: -1px -1px 4px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 4px 0px rgba(0,0,0,0.75);
+    padding: .8rem 1rem;
+    transition: all .2s;
+}
